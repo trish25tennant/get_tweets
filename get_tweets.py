@@ -47,7 +47,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         get_tweets(sys.argv[1])
     else:
-        print "Error: enter one username"
+        print( "Error: enter one username")
 
     #alternative method: loop through multiple users
 	# users = ['user1','user2']
